@@ -1,0 +1,6 @@
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false  #是否将eureka自身作为应用注册到eureka注册中心
+    fetchRegistry: false #此客户端是否获取eureka服务器注册表上的注册信息，默认为true  
